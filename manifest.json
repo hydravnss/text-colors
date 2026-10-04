@@ -1,0 +1,14 @@
+{
+    "display_name": "Text Colors",
+    "loading_order": 10,
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "css": "style.css",
+    "author": "hydravnss",
+    "version": "1.0.0",
+    "homePage": "https://github.com/hydravnss/text-colors",
+    "auto_update": true,
+    "minimum_client_version": "1.12.0",
+    "description": "FR: Change la couleur des textes du chat (texte des bots / de Vous, dialogues, actions en italique, gras, citations, code, liens, noms, horodatage, barre de saisie), par personnage et par persona, avec préréglages, effets, aide au contraste, et priorité sur les thèmes CSS personnalisés. EN: Change chat text colours (never backgrounds), with per-character overrides, presets and contrast helper."
+}

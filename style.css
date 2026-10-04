@@ -1,0 +1,48 @@
+/* Text Colors - panneau de réglages uniquement.
+   Les couleurs du chat sont injectées par index.js dans <style id="tc-style"> ; aucune règle ici ne touche
+   aux bulles, fonds, positions ou transformations du chat. */
+#text_colors_settings .tc-block { margin: 8px 0; }
+#text_colors_settings .tc-hint { opacity: 0.7; font-size: 0.85em; margin: 2px 0 4px 0; }
+#text_colors_settings .tc-row { margin: 8px 0; padding: 6px 0; border-bottom: 1px solid rgba(128, 128, 128, 0.2); }
+#text_colors_settings .tc-row-label { font-weight: 600; margin-bottom: 4px; }
+#text_colors_settings .tc-row-ctl { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+#text_colors_settings .tc-picker,
+#text_colors_settings .tc-fx input[type="color"] { width: 46px; height: 34px; min-width: 46px; padding: 0; border: 1px solid var(--SmartThemeBorderColor, #888); background: none; cursor: pointer; }
+#text_colors_settings .tc-hex { width: 92px; flex: 0 0 92px; margin: 0; font-family: monospace; }
+#text_colors_settings .tc-alpha { flex: 1 1 110px; min-width: 90px; }
+#text_colors_settings .tc-alpha-val { min-width: 38px; text-align: right; font-size: 0.9em; }
+#text_colors_settings .tc-reset { margin: 0; padding: 4px 8px; font-size: 0.85em; }
+#text_colors_settings .tc-reset[disabled] { opacity: 0.4; pointer-events: none; }
+#text_colors_settings .tc-info { font-size: 0.82em; opacity: 0.75; margin-top: 3px; }
+#text_colors_settings .tc-info.tc-warn { opacity: 1; color: #ff9f0a; }
+#text_colors_settings .tc-info.tc-good { color: #30d158; opacity: 0.9; }
+#text_colors_settings .tc-fx { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin: 4px 0 8px 22px; }
+#text_colors_settings .tc-fx input[type="range"] { flex: 1 1 120px; }
+#text_colors_settings .tc-slot > .checkbox_label { margin: 4px 0 4px 4px; }
+#text_colors_settings .tc-presets { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+#text_colors_settings .tc-preset { display: inline-flex; align-items: center; gap: 6px; margin: 0; padding: 6px 10px; }
+#text_colors_settings .tc-dots { display: inline-flex; gap: 2px; }
+#text_colors_settings .tc-dots i { display: inline-block; width: 10px; height: 10px; border-radius: 50%; border: 1px solid rgba(255, 255, 255, 0.35); }
+#text_colors_settings .tc-ov { margin: 8px 0; padding: 6px 8px; border-radius: 8px; background: rgba(128, 128, 128, 0.12); }
+#text_colors_settings .tc-ov-head { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+#text_colors_settings .tc-ov-head b { flex: 1 1 120px; }
+#text_colors_settings .tc-tag { font-size: 0.75em; opacity: 0.7; border: 1px solid rgba(128, 128, 128, 0.5); border-radius: 10px; padding: 1px 8px; }
+#text_colors_settings .tc-del { margin: 0; padding: 4px 8px; font-size: 0.85em; }
+#text_colors_settings .tc-add { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin: 6px 0; }
+#text_colors_settings .tc-add .text_pole { flex: 1 1 140px; width: auto; margin: 0; }
+#text_colors_settings .tc-json { width: 100%; box-sizing: border-box; font-family: monospace; font-size: 0.8em; }
+#text_colors_settings .tc-btns { display: flex; gap: 8px; margin: 6px 0; flex-wrap: wrap; }
+#text_colors_settings .tc-btns .menu_button { margin: 0; }
+/* Aperçu : bulles factices (n'utilise PAS #chat ni .mes) */
+#text_colors_settings .tc-preview { display: flex; flex-direction: column; gap: 6px; padding: 10px; border-radius: 10px; margin-top: 6px; }
+#text_colors_settings .tc-pv-msg { display: flex; flex-direction: column; max-width: 92%; }
+#text_colors_settings .tc-pv-msg-user { align-self: flex-end; }
+#text_colors_settings .tc-pv-msg-bot { align-self: flex-start; }
+#text_colors_settings .tc-pv-head { font-size: 0.8em; }
+#text_colors_settings .tc-pv-name { font-weight: 700; color: #fff; }
+#text_colors_settings .tc-pv-time { color: #8e8e93; }
+#text_colors_settings .tc-pv-bubble { padding: 8px 12px; border-radius: 16px; color: #fff; line-height: 1.4; width: fit-content; }
+#text_colors_settings .tc-pv-bubble blockquote { margin: 4px 0 0 0; padding: 0 0 0 8px; border-left: 3px solid rgba(255, 255, 255, 0.4); color: inherit; }
+#text_colors_settings .tc-pv-bubble code { background: none; padding: 0; }
+#text_colors_settings .tc-pv-bubble em { color: #919191; }
+#text_colors_settings .tc-pv-input { margin: 0; padding: 8px 10px; border-radius: 10px; border: 1px solid rgba(255, 255, 255, 0.15); color: #fff; width: 100%; box-sizing: border-box; }
